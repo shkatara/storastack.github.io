@@ -1,0 +1,2 @@
+
+ads.go:1:1: expected 'package', found 'IDENT' asd

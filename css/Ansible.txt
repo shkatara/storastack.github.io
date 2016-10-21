@@ -1,0 +1,32 @@
+											=======Ansible=======	
+--Automation
+--DevOps : Development + Operations : Developer sends its product to testing team, and after testing before presenting to real world, product is executed on servers just like real servers, these servers are knowns as staging server. On staging servers, the product is then deployed. After this, the product is finally put in Production server for world use.
+--Testing phase keeps the developer for hold for approval which kills the flow of work of the developer.
+--DevT - Developers + Testing 
+--OpsT - Operations team - Staging + Production Servers
+--World needs Agile model - Quick!
+
+For example : A java program using IDE, IDE has a plugin of GIT, when committed code is uploaded to GIT, when GIT's code is complete it automatically goes to Selenium. 
+--Testing Product : Selenium
+After Testing the Product is send to CI server : Jenkins
+
+DevOps : Developer working like Operations is DevOps.
+		 Operations working like Developer is DevOps too.
+--Ansible is Operations or Administration work thinking like Developer to automate task.
+--DevOps is also know as 'Infrastructure as Code'.
+
+Tools used for Automation through Code:
+--Shell Scripting, Perl Scripting or Python 
+--PowerShell, Batch
+
+--Puppet, Chef, Salt Stake, CF Engine, Ansible
+
+--Ansible is an intelligent tool which recognises the Operating system or machine and then install the software according it simulataneously in multiple machine. Automation in this case becomes real easy.
+--Python is an imparitive language because you have to define what to perform and how to perform.
+--But ansible just needs to know what to perform, how to perform is the work of ansible. Ansible is Declarative language.
+--The type of language used by Ansible is declarative language.
+--Ansible keeps changing the state according to the machine.
+--It even remembers the states, so the person can roll back to the previous state.
+
+--Ansible is smart. Automation can be done by python as well, but in python you have to define how to perfom.
+--Chef > Puppet > Ansible and others.

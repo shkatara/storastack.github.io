@@ -1,0 +1,2 @@
+ssh -X arpit@
+ firefox

@@ -1,0 +1,82 @@
+<?php
+
+?>
+<html>
+<head>
+	
+	<title>SToraSTack 2.0 - Block Storage</title>
+	
+	<link rel="stylesheet" href="css/style.css"/>
+	
+	<script type="text/javascript" id="myscript" >
+
+		function showHide(divID, imgID)
+		{
+			if (document.getElementById(divID).style.display == "none") 
+			{
+			document.getElementById(divID).style.display = "block";
+			document.getElementById(imgID).src = "Images/upArrow.gif";
+			}else
+			{
+		document.getElementById(divID).style.display = "none";
+		document.getElementById(imgID).src = "Images/dnArrow.gif";
+			}
+		}
+
+	</script>
+
+</head>
+
+<body>
+	
+	<div class="outer">
+		
+		<div class="logo">
+			
+			SToraSTack <span>2</span>.0</h2>
+			
+
+			<div id="image">
+				<img "dirImg" src="css/chevron.png" onclick="showHide('hideDiv',this.id)"/>
+			</div>
+		</div>
+		
+		<div class="user">
+			Arpit
+		</div>
+			
+			<div id="hideDiv" style="display:none">
+				
+				<div class="menu1">
+
+				<ul>
+				<a href="storage.html"><li>Storage</li></a>
+				<a href=""><li>OS Gallery</li></a>
+				<a href=""><li>Containers</li></a>
+				<a href=""><li>Softwares</li></a>
+				<a href=""><li>Hadoop</li></a>
+				<a href=""><li>Platforms</li></a>
+				</ul>
+		
+				</div>
+
+			</div>
+		
+	</div>
+		<div class="content">
+			<a href="block.html"><div class="content1">
+			<h2>Block Storage</h2>
+			</div></a>
+			<a href="object.html"><div class="content2">
+			<h2>Object Storage</h2>
+			</div></a>
+		</div>
+
+
+	<div class="footer1">
+		<h2>2016 &copy SToraSTack <span>2</span>.0</h2>
+	</div>
+	
+</body>
+
+</html>

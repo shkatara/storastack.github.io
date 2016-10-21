@@ -1,0 +1,4 @@
+c/98307.cpp: In function 'int main()':
+c/98307.cpp:5:1: error: 'cout' was not declared in this scope
+ cout<<"Hello, world!\n";
+ ^
